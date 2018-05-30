@@ -17,7 +17,10 @@ public class PruebaGit {
     public static void main(String[] args) {
         // TODO code application logic here
         ClaseAgregadaPorAdmin x=new ClaseAgregadaPorAdmin("Desde admin");
+        ClaseDosAgregadaPorAdmin y=new ClaseDosAgregadaPorAdmin("Texto dos desde admin");
+        
         System.out.println(x.getTexto());
+        System.out.println(y.getOtroTexto());
     }
     
 }
